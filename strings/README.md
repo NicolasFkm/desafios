@@ -1,3 +1,17 @@
+# String Formatter
+
+## Como usar
+Os comandos abaixo devem ser feitos via terminal dentro da pasta app.
+
+* ``npm run test`` : Executa os testes unitários implementados na aplicação;
+
+* ``npm run format <text> [<length>]`` : Formata o texto inserido para no máximo o número de caracteres inseridos no parâmetro "length". O parâmetro length é opcional, por padrão é 40;
+
+* ``npm run justify <text> [<length>]`` : Justifica o texto inserido para no máximo o número de caracteres inseridos no parâmetro "length". O parâmetro length é opcional, por padrão é 40;
+
+## Tecnologias Utilizadas
+A aplicação foi feita em NodeJs, utilizando o pacote __Commander__ para fazer a interface CLI. A parte de Unit Tests foi utilizado em sua maioria o framework __Mocha__, em apenas um teste unitário foi utilizado o __Chai__ (para testar uma exceção).
+
 # Desafio 1: Strings
 
 Após ler o coding style do kernel Linux, você descobre a mágica que é
