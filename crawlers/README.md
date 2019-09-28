@@ -1,3 +1,21 @@
+# Crawler
+
+## Como usar
+Os comandos abaixo devem ser feitos via terminal dentro da pasta app.
+
+* ``npm run trends <subreddits>`` : Imprime no terminal as threads com 5000 ou mais de score no subreddit, os subreddits passados por parâmetro devem estar separados por vírgula(,);
+
+* ``npm run bot`` : Inicializa o bot de telegram para informar as threads com 5000 ou mais de score no subreddit, a informação é recuperada utilizando o comando `/NadaPraFazer` seguindo dos subreddits desejados separados por vírgula(,);
+
+## Tecnologias Utilizadas
+A aplicação foi feita em NodeJs, utilizando o pacote __Commander__ para fazer a interface CLI, o __Boxen__ e __Chalk__ foram utilizados para formatar o texto no terminal. Para fazer a interface com o Telegram Bot foi utilizado o pacote __node-telegram-bot-api__ enquanto o Bot do Telegram foi configurado via BotFather
+
+## Telegram Bot
+Para acessar o bot do telegram, o link é https://t.me/RedditNFKBot.
+
+## Observação
+Nenhum teste unitário nesse projeto devido ao tempo de desenvolvimento.
+
 # Desafio 2: Crawlers
 
 Parte do trabalho na IDwall inclui desenvolver *crawlers/scrapers* para coletar dados de websites.
