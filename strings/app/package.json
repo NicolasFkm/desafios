@@ -8,7 +8,7 @@
     "justify": "node ./app j",
     "format": "node ./app f"
   },
-  "author": "",
+  "author": "Nicolas Fukuyama",
   "license": "ISC",
   "dependencies": {
     "boxen": "^4.0.0",
